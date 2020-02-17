@@ -20,5 +20,5 @@ def assign_rooms(attendees)
   greeting
 end
 def printer(batch_badge_creator, assign_rooms)
-  
+  batch_badge_creator.each_with_index()
 end
