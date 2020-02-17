@@ -20,12 +20,7 @@ def assign_rooms(attendees)
   greeting
 end
 
-def printer(badge, greeting)
-  badge.each do |guest|
-    puts guest
-  end
-  greeting.each do |room|
-    puts room
-  end
+def printer(attendees)
+  
  
 end
